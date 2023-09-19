@@ -11,7 +11,11 @@ body {
     color: white;
     /* mix-blend-mode: exclusion; */
     text-shadow: 4px 4px red, 8px 8px blue;
-    border: 20px dotted 
+    border: 20px dotted;
+    margin: 0;
+    line-height: .5;
+    padding: 1em;
+
 }
 
 .corner-message{
@@ -20,7 +24,7 @@ body {
     top: 0;
     margin: 2rem;
     color:cyan;
-    padding 3em;
+    padding: 3em;
     background-color: magenta;
     font-size: 2 rem;
     box-shadow: -10px 10px 10px yellow
@@ -40,7 +44,7 @@ body {
     left: 0;
     right: 0;
     z-index: -1;
-    max-width: 100%;
+    width: 100%;
     /* vh = viewport height*/
     height:100vh;
     /* object fit determines how a video or image iwll fit in the space it occupies*/
