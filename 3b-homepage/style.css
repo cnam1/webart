@@ -16,6 +16,26 @@ body {
   object-position: center;
 }
 
+.cube1 {
+  width: 9%;
+  position: absolute;
+  top: 7.8%;
+  left:21%;
+}
+
+.cube2 {
+  width: 9%;
+  position: absolute;
+  top: 7.8%;
+  right:21%;
+}
+
+.audiocontrol {
+  position: absolute;
+  top: 35%;
+  right: 19.7%;
+}
+
 h1, h3{
   background-color: black;
   color: white;
@@ -30,6 +50,7 @@ h1, h3{
   display: block;
   margin-left: 0;
   margin-right: 20px;
+  margin-top: 0;
   width: 200px;
 }
 
