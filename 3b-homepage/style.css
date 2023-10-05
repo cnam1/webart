@@ -104,3 +104,15 @@ h1, h2, h3{
   text-align: right;
   margin-right: 8.5%;
 }
+
+.webring{
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.webring a {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  color: black;
+  
+}
