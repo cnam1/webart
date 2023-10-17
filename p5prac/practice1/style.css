@@ -1,0 +1,21 @@
+/* html {
+    cursor: none;
+} */
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+canvas {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}

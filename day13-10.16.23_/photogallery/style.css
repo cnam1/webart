@@ -1,0 +1,88 @@
+* {
+    /* CSS Reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    /* position: fixed; */
+    /* background-color: orange; */
+    /* width: 100%; */
+    padding: 1rem;
+    /* border: .5rem solid pink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem 4rem;
+}
+
+header > * {
+    /* outline: 2px solid cyan; */
+}
+
+.logo{
+    font-size: 2rem;
+    font-family: Arial;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    padding: .25rem;
+    color: black;
+}
+
+.top-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 2rem;
+}
+
+.top-menu a{
+    text-decoration: none;
+    color: black;
+    transition: color .5s;
+}
+
+.top-menu a:hover {
+    color: green;
+}
+
+/* Main Block */
+
+.page-title{
+    text-align: center;
+    padding: 4rem;
+    background-image: url('//picsum.photos/id/115/');
+}
+
+main {
+    max-width: 500rem;
+    margin: 0 ;
+}
+
+img { 
+    display: block;
+}
+
+.gallery {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.gallery img {
+    width: min(300px, 100%);
+    flex-grow: 1;
+}
+
+footer {
+    text-align:center;
+    padding: 2rem;
+    color: white;
+
+}
