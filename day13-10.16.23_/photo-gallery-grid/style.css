@@ -1,0 +1,116 @@
+* {
+    /* "CSS Reset" */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* position: fixed; */
+    /* width: 100%; */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    background-color: black;
+    color: white;
+}
+
+header a {
+    color: white;
+}
+
+/* header > * {
+    outline: 2px solid cyan;
+} */
+
+.logo {
+   font-size: 2rem;
+   font-family: Arial;
+   text-decoration: none;
+   border: 2px solid black;
+   border-radius: 50%;
+   background-color: white;
+   color: black;
+   padding: .25rem;
+}
+
+.top-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 2rem;
+    text-decoration: none;
+}
+
+.top-menu a {
+    text-decoration: none;
+    transition: color .5s;
+}
+
+.top-menu a:hover {
+    color: green;
+}
+
+/* MAIN BLOCK */
+
+main {
+    max-width: 50rem;
+    margin: 5rem auto;
+}
+
+.page-title {
+    text-align: center;
+    padding: 4rem;
+    background-image: url('//picsum.photos/id/115/1920/600');
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.flex-container p {
+    border: 2px solid red;
+    padding: 1rem;
+}
+
+img {
+    display: block;
+}
+
+.gallery  {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.gallery img{
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //picsum.photos/id/115/600/400 */
+
+
+
